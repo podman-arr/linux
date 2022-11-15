@@ -3,7 +3,6 @@
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 rpm-ostree install gnome-boxes libvirt-daemon-config-network zsh
-rpm-ostree override remove firefox firefox-langpacks
 
 sudo usermod -aG libvirt $USER
 sudo systemctle enable --now libvirtd virtnetworkd-ro.socket
